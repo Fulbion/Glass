@@ -87,3 +87,72 @@
         -webkit-backdrop-filter: blur(8px);
     }
 }
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: -16px 16px 16px rgba(16, 16, 16, 0.4);
+}
+
+.form h1 {
+    margin-bottom: 16px;
+    border-bottom: 1px solid white;
+}
+
+.entry {
+    padding: 4px;
+}
+
+.entry label {
+    font-size: 12px;
+}
+
+.entry input {
+    justify-self: center;
+    color: black;
+    outline: none;
+    border: 1px solid rgba(225, 225, 225, 0.4);
+    border-radius: 16px;
+    padding: 4px 12px;
+    transition: 0.3s;
+}
+
+.entry input:hover {
+    border: 1px solid rgba(64, 64, 64, 1);
+}
+
+.entry input:focus {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.button {
+    margin-top: 16px;
+    margin-right: -16px;
+    margin-bottom: -16px;
+}
+
+.button button {
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 4px 16px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.button button:hover {
+    background-color: orangered;
+    color: white;
+}
